@@ -1,7 +1,6 @@
 To get started, clone the master branch of the repository. Then type the following commands, you need NPM (https://www.npmjs.com/get-npm) installed for this to work.
 
-npm install
-
+npm install \n
 npm start
 
 "npm install" downloads all the Node.JS libraries required for the program to work.

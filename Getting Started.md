@@ -1,4 +1,5 @@
 To get started, clone the master branch of the repository. Then type the following commands, you need NPM (https://www.npmjs.com/get-npm) installed for this to work.
+
 npm install
 npm start
 

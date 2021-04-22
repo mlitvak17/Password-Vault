@@ -1,0 +1,84 @@
+:root {
+	/** Global colors **/
+	--body: rgb(255, 255, 255);
+	--secondary-background: rgb(60, 60, 60);
+
+	--primary-color: rgb(30, 64, 124);
+	--text-color: rgb(255,255,255);
+	--secondary-color: rgb(30, 64, 124);
+	--tertiary-color: rgb(255, 255, 255);
+	--primary-hover: rgb(60, 60, 60);
+	--primary-accent: rgb(4, 30, 66);
+	--primary-accent-transparent: rgb(45, 85, 170, 0.8);
+	--primary-shadow: rgb(50, 50, 50);
+
+	--secondary-accent: rgb(32, 32, 32);
+	--secondary-accent-transparent: rgba(32, 32, 32, 0.5);
+	--primary-important: rgb(200, 50, 50);
+
+	/** Scrollbar **/
+	--scrollbar-track: rgb(40, 40, 40);
+	--scrollbar-thumb: var(--primary-accent);
+	--scrollbar-thumb-hover: var(--primary-accent-transparent);
+
+	/** Controls **/
+	--toggle-controls: rgba(50, 50, 50, 0.4);
+	--toggle-controls-opaque: rgb(30, 30, 30);
+	--primary-a: rgb(64, 124, 255);
+	--controls-background: rgba(20, 20, 20, 0.7);
+
+	/** Buttons **/
+	--primary-button: linear-gradient(-45deg, rgb(0, 156, 222), rgb(255, 255, 255));
+	--secondary-button: linear-gradient(45deg, rgb(10, 66, 189), rgb(61, 118, 243));
+	--secondary-button: rgb(45, 85, 170);
+	--primary-green: rgb(50, 200, 50);
+
+	/** Input **/
+	--primary-input: rgb(80, 80, 80);
+	--secondary-input: var(--primary-accent);
+
+	/** Table **/
+	--primary-thead-border: 2px solid rgb(30, 64, 124);
+	--row-hover: rgb(211, 211, 211);
+	--cell-hover: rgb(0, 156, 222);
+	--copy-color: rgb(150, 150, 150);
+
+	/** password **/
+	--strength-0: rgb(255, 0, 0);
+	--strength-1: rgb(200, 92, 50);
+	--strength-2: rgb(255, 255, 0);
+	--strength-3: rgb(142, 200, 50);
+	--strength-4: rgb(0, 255, 0);
+
+
+
+	/* settings */
+	--settings-body-backdrop-filter: brightness(3);
+
+	--dialog-background: rgb(211, 211, 211);
+
+
+
+	/* radio buttons */
+	--radio-background: rgb(50, 50, 50);
+	--radio-background-hover: rgb(60, 60, 60);
+	--radio-background-active: var(--primary-accent);
+	--radio-checkmark: rgb(50, 50, 50);
+
+
+	/* tooltips */
+	--tooltip-background: rgb(255, 255, 255);
+	--tooltip-shadow: rgb(255, 255, 255);
+
+
+	/* checkmark */
+	--checkmark-background: var(--primary-hover);
+}
+
+a:hover {
+	filter: brightness(0.9);
+}
+
+img:not(#service-icon) {
+	filter: invert(0);
+}
